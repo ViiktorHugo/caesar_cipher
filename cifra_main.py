@@ -2,10 +2,7 @@
 # Cifra de césar.                                #   
 # Código para apresentação de FMCC II - 2021.1   #
 #                                                # 
-# @Authors:                                      #
-# Jhonnathas Swerley Farias dos Santos           #
-# Vimerson Pedro Custodio Silva                  #
-# Guilherme Henrique Pereira                     #
+# @Author:                                       #
 # Victor Hugo da Silva Rangel                    #
 ##################################################
 
