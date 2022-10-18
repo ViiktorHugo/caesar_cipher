@@ -6,8 +6,7 @@
 # Victor Hugo da Silva Rangel                    #
 ##################################################
 
-from cifra_funcoes import encriptar
-from cifra_funcoes import decriptar
+from cifra_funcoes import encriptar, decriptar
 
 
 print ("\n")
