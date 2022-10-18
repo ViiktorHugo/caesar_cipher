@@ -6,11 +6,6 @@
 # Victor Hugo da Silva Rangel                    #
 ##################################################
 
-# Known issues:
-# Index out of range, utilizando a chave 7 com o caracter V
-
-
-
 # Algoritmo trabalha com o alfabeto em maíusculo#
 def encriptar (texto, chave):
     alfabeto = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -25,8 +20,8 @@ def encriptar (texto, chave):
         else: 
             posicao = alfabeto.find(e)
             posicao += chave ## passo matemático
-            if posicao > len(alfabeto):
-                posicao = posicao - len(alfabeto)
+            if posicao >= len(alfabeto):
+                posicao = abs(posicao) - len(alfabeto)
             
             texto_encriptado = texto_encriptado + alfabeto[posicao]
 
